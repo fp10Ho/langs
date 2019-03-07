@@ -5,8 +5,8 @@ $lang_admin_bans = array(
 
 'No user message'			=>	'Er is geen gebruiker met deze gebruikersnaam. Als je een ban wilt instellen die niet gerelateerd is aan geen gebruikersnaam laat je dit veld leeg.',
 'No user ID message'		=>	'Er is geen gebruiker met dit ID.',
-'User is admin message'		=>	'De gebruiker %s is een beheerder en kan niet worden verbannen. Als je een beheerder wilt verbannen moet je hem in een andere gebruikersgroep verplaatsen.',
-'User is mod message'		=>	'De gebruiker %s is een moderator en kan niet worden verbannen. Als je een moderator wilt verbannen moet je hem in een andere gebruikersgroep verplaatsen.',
+'User is admin message'		=>	'De gebruiker %s is een beheerder en kan niet worden verbannen. Als je een beheerder wilt verbannen moet je hem in een andere gebruikersgroep plaatsen.',
+'User is mod message'		=>	'De gebruiker %s is een moderator en kan niet worden verbannen. Als je een moderator wilt verbannen moet je hem in een andere gebruikersgroep plaatsen.',
 'Must enter message'		=>	'Je moet (minstens) een gebruikersnaam, IP of e-mailadres opgeven.',
 'Cannot ban guest message'	=>	'De gebruiker \'Gast\' kan niet worden verbannen.',
 'Invalid IP message'		=>	'Dit is een ongeldig IP-adres.',
@@ -53,7 +53,7 @@ $lang_admin_bans = array(
 'Expire date label'			=>	'Vervaldatum',
 'Expire date help'			=>	'De datum waarop de ban automatisch vervalt (formaat: jjjj-mm-dd). Voer geen datum in om de ban handmatig te verwijderen.',
 
-'Results head'				=>	'Zoek resultaten',
+'Results head'				=>	'Zoekresultaten',
 'Results username head'		=>	'Gebruikersnaam',
 'Results e-mail head'		=>	'E-mail',
 'Results IP address head'	=>	'IP-adres',
