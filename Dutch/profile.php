@@ -52,7 +52,7 @@ $lang_profile = array(
 'Too large'						=>	'De afbeelding die je probeert te uploaden is groter dan is toegestaan',
 'pixels'						=>	'pixels',
 'bytes'							=>	'bytes',
-'Move failed'					=>	'De server heeft de afbeelding niet kunnen opslaan. Contacteer een beheerder op',
+'Move failed'					=>	'De server heeft de afbeelding niet kunnen opslaan. Neem contact op met de beheerder op',
 'Unknown failure'				=>	'Er is een onbekend probleem, probeer het opnieuw.',
 'Avatar upload redirect'		=>	'Avatar geüpload. Doorverwijzen…',
 'Avatar deleted redirect'		=>	'Avatar verwijderd. Doorverwijzen…',
@@ -131,7 +131,7 @@ $lang_profile = array(
 'Confirm delete legend'			=>	'Belangrijk: lees dit voor je een gebruiker verwijdert',
 'Confirm delete user'			=>	'Bevestig het verwijderen van deze gebruiker',
 'Confirmation info'				=>	'Bevestig dat je deze gebruiker wilt verwijderen',
-'Delete warning'				=>	'Waarschuwing! Het verwijderen van een gebruiker en/of diens posts kan niet worden terug gedraaid. Indien je een gebruiker verwijdert zonder zijn posts te verwijderen kunnen de posts enkel manueel worden verwijderd.',
+'Delete warning'				=>	'Waarschuwing! Het verwijderen van een gebruiker en/of diens posts kan niet worden terug gedraaid. Indien je een gebruiker verwijdert zonder zijn posts te verwijderen kunnen de posts enkel handmatig worden verwijderd.',
 'Delete posts'					=>	'Verwijder alle posts en topics die gemaakt zijn door deze gebruiker.',
 'Delete'						=>	'Verwijderen', // submit knop
 
