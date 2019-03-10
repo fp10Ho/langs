@@ -128,13 +128,13 @@ $lang_admin_options = array(
 'Topic views label'					=>	'Topic weergave',
 'Topic views help'					=>	'Houd het aantal keer dat een topic wordt bekeken bij. Schakel dit uit als er hoge server load optreed.',
 'Quick jump label'					=>	'Ga naar',
-'Quick jump help'					=>	'Schakel de "Ga naar" droplist onderaan iedere pagina in of uit.',
+'Quick jump help'					=>	'Schakel de dropdownlist "Ga naar" onderaan iedere pagina in of uit.',
 'GZip label'						=>	'GZip output',
-'GZip help'							=>	'Als dit op aan staat zal FluxBB output die het verzent naar de browser sturen in gzip-formaat. Dit bespaart bandbreedte, maar heeft wel wat meer kracht van de CPU nodig. PHP moet geconfigureerd zijn met zlib (--with-zlib) om deze optie te kunnen gebruiken.',
+'GZip help'							=>	'Als dit op aan staat zal FluxBB output die het verzendt naar de browser sturen in gzip-formaat. Dit bespaart bandbreedte, maar heeft wel wat meer kracht van de CPU nodig. PHP moet geconfigureerd zijn met zlib (--with-zlib) om deze optie te kunnen gebruiken.',
 'Search all label'					=>	'Alle forums doorzoeken',
 'Search all help'					=>	'Als dit op "Nee" staat kan een zoekopdracht enkel binnen 1 forum worden gehouden per keer. Dit bespaard bandbreedte maar is niet echt gebruiksvriendelijk.',
 'Menu items label'					=>	'Aangepaste menu items',
-'Menu items help'					=>	'In dit tekst-vak kan je HTML hyperlinks invullen die worden toegevoegd aan het hoofdmenu van het forum. Het formaat dat je moet aanhouden om nieuwe menu opties toe te voegen is X = &lt;a href="url"&gt;link&lt;/a&gt;, waarbij X de positie van de link bedraagt (bv. gebruik 0 om je link vooraan te plaatsen, gebruik 2 om je link achter "Gebruikerslijst" te plaatsen).',
+'Menu items help'					=>	'In dit tekst-vak kan je HTML hyperlinks invullen die worden toegevoegd aan het hoofdmenu van het forum. Het formaat dat je moet aanhouden om nieuwe menu-opties toe te voegen is X = &lt;a href="url"&gt;link&lt;/a&gt;, waarbij X de positie van de link bedraagt (bv. gebruik 0 om je link vooraan te plaatsen, gebruik 2 om je link achter "Gebruikerslijst" te plaatsen).',
 
 // Feeds
 'Feed subhead'						=>	'Feeds',
@@ -178,9 +178,9 @@ $lang_admin_options = array(
 'Webmaster e-mail label'			=>	'Webmaster e-mail',
 'Webmaster e-mail help'				=>	'Dit is het e-mailadres waar alle berichten die het forum verzendt van zullen komen.',
 'Forum subscriptions label'			=>	'Forum abonnee',
-'Forum subscriptions help'			=>	'Laat gebruikers zich abonneren op forums (ontvang e-mail als iemand een nieuw onderwerp aanmaakt).',
+'Forum subscriptions help'			=>	'Laat gebruikers zich abonneren op forums (ontvang een e-mail als iemand een nieuw onderwerp aanmaakt).',
 'Topic subscriptions label'			=>	'Topic abonnee',
-'Topic subscriptions help'			=>	'Laat gebruikers zich abonneren op topics (ontvang e-mail als iemand reageert).',
+'Topic subscriptions help'			=>	'Laat gebruikers zich abonneren op topics (ontvang een e-mail als iemand reageert).',
 'SMTP address label'				=>	'SMTP server adres',
 'SMTP address help'					=>	'Het adres van een externe SMTP server om e-mails mee te verzenden. Je kan een eigen poortnummer gebuiken als de SMTP server niet werkt met de standaard poort 25 (voorbeeld: mail.fluxbb.org:3580). Laat leeg om het standaard e-mailprogramma te gebruiken.',
 'SMTP username label'				=>	'SMTP gebruikersnaam',
@@ -196,7 +196,7 @@ $lang_admin_options = array(
 'Allow new label'					=>	'Nieuwe registraties',
 'Allow new help'					=>	'Bepaal of er nieuwe gebruikers zich kunnen registreren op dit forum.',
 'Verify label'						=>	'Controleer registraties',
-'Verify help'						=>	'Indien aan zullen gebruikers een willekeurig wachtwoord krijgen opgestuurd na hun registratie waarmee ze kunnen inloggen. Daarna kunnen ze het wachtwoord in hun profiel aanpassen. Dit wordt ook gebruikt om het e-mailadres te wijzigen. Dit is een effectieve manier om ervoor te zorgen dat gebruikers een correct e-mailadres gebruiken.',
+'Verify help'						=>	'Indien aan zullen gebruikers een willekeurig wachtwoord krijgen opgestuurd na hun registratie waarmee ze kunnen inloggen. Daarna kunnen ze het wachtwoord in hun profiel aanpassen. Dit wordt ook gebruikt om het e-mailadres te wijzigen. Dit is een effectieve manier om ervoor te zorgen dat gebruikers een juist e-mailadres gebruiken.',
 'Report new label'					=>	'Rapporteer nieuwe registraties',
 'Report new help'					=>	'Indien aan zal FluxBB een bericht sturen naar de e-mail lijst als er een nieuwe gebruiker is geregistreerd. (zie "Rapporten" hier boven)',
 'Use rules label'					=>	'Forum regels',
@@ -206,8 +206,8 @@ $lang_admin_options = array(
 'E-mail default label'				=>	'Standaard e-mail instellingen',
 'E-mail default help'				=>	'Kies de standaard privacy instelling voor nieuwe gebruikers.',
 'Display e-mail label'				=>	'Gebruikers kunnen elkaars e-mailadres zien.',
-'Hide allow form label'				=>	'E-mailadres verbergen, maar e-mail formulier weergeven.',
-'Hide both label'					=>	'E-mailadres en e-mail formulier verbergen.',
+'Hide allow form label'				=>	'E-mailadres verbergen, maar e-mailformulier weergeven.',
+'Hide both label'					=>	'E-mailadres en e-mailformulier verbergen.',
 
 // Aankondigingen
 'Announcement subhead'				=>	'Aankondigingen',
@@ -221,6 +221,6 @@ $lang_admin_options = array(
 'Maintenance mode label'			=>	'Onderhouds modus',
 'Maintenance mode help'				=>	'Als dit op "Ja" staat zal het forum enkel beschikbaar zijn voor beheerders. Dit kan je gebruiken om het forum tijdelijk te sluiten voor bezoekers tijdens onderhoud. <strong>WAARSCHUWING! Log niet uit tijdens de onderhouds modus!</strong> Je kan niet meer inloggen als het forum op onderhoud staat.',
 'Maintenance message label'			=>	'Onderhoud bericht',
-'Maintenance message help'			=>	'Het bericht dat bezoekers van het forum zijn als de onderhouds modus actief is. Als je dit veld leeg laat zal een standaard bericht worden weergegeven. De tekst die je hier invult mag HTML bevatten.',
+'Maintenance message help'			=>	'Het bericht dat bezoekers van het forum zien als de onderhouds-modus actief is. Als je dit veld leeg laat zal een standaard bericht worden weergegeven. De tekst die je hier invult mag HTML bevatten.',
 
 );
